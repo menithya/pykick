@@ -17,7 +17,7 @@ class Students(Schoolmember):
         Schoolmember.__init__(self,name,age)
         self.marks=marks
     def displyaMakrs(self):
-        Schoolmember.display(self)
+        display = Schoolmember.display(self)
         print "%s marks is %s" %(self.name,self.marks)
 
 
